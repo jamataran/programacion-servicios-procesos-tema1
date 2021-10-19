@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Ejemplo require</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"
+            type="text/javascript"
+            data-main="modules/entry"></script>
+    <script>
+        require(["log"], function (l) {
+            l.log('Log cargado....');
+        });
+    </script>
+</head>
+<body>
+Web simple con un <a href="dos.html">link</a>
+</body>
+</html>

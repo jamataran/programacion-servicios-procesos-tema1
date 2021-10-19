@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js" type="text/javascript" data-main="modules/entry"></script>
+        <script>
+            requirejs(["constantes","log"], function (m, l) {
+                let message = m.getCte('USUARIO');
+                l.log('Recuperado mensaje '+ message);
+                document.getElementById('mensaje').value = message;
+            });
+        </script>
+    </head>
+    <body>
+        <h3>Mostrando el mensaje</h3>
+        Usuario: <input id="mensaje"/>
+    </body>
+</html>
