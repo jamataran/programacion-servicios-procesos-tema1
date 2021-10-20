@@ -19,4 +19,3 @@ interface Modelo{
 
 var prueba:Modelo = {id: 1, code: '10'};
 console.log(JSON.stringify(prueba));
-
