@@ -104,3 +104,4 @@ dist
 .tern-port
 
 typescript/*.js
+ejercicio1/parte2/*.js
